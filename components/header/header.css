@@ -1,0 +1,38 @@
+header{
+  background: #888;
+}
+/* large - 1920 */
+.header-container-l{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header-ul-l{
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 16px;
+  width: 465px;
+  gap: 48px;
+}
+
+
+/* medium - 375 */
+.header-container-m {
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger{
+  margin: 8px;
+  cursor: pointer;
+}
+
+
+
+
