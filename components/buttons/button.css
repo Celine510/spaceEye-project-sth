@@ -70,3 +70,89 @@
   border-color: var(--gray-02);
   color: var(--white);
 }
+
+
+/* btn-mail */
+.btn-mail-m,.btn-mail-l{
+  border: 2px solid var(--brand-01);
+  background: var(--brand-01);
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-mail-m:hover,
+.btn-mail-l:hover{
+  border: 2px solid var(--white);
+    background: var(--white);
+}
+
+.icon-mail-m{
+  padding: 0 16px;
+}
+.icon-mail-l{
+  padding: 0 12px;
+}
+
+.btn-mail-part-m,.btn-mail-part-l{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  background: var(--gray-01);
+  color: var(--white);
+  font-weight: var(--fw-medium-500);
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+}
+.btn-mail-part-m{
+  width: 196px;
+}
+.btn-mail-part-l{
+  width: 283px;
+}
+
+.btn-mail-m:hover .btn-mail-part-m,
+.btn-mail-l:hover .btn-mail-part-l{
+  background: var(--brand-01);
+  color: var(--gray-01);
+}
+
+.btn-mail-title-m,.btn-mail-title-l{
+  line-height: 24px;
+  font-weight: var(--fw-medium-500);
+  margin-bottom: 0;
+}
+
+.btn-mail-title-m{
+  font-size: 20px;
+  padding: 16px 0;
+}
+.btn-mail-title-l{
+  font-size: 16px;
+  padding: 12px 0;
+}
+
+/* btn-up */
+.btn-up{
+  border: 2px solid var(--brand-01);
+  background: var(--brand-01);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-up:hover{
+  background: var(--gray-01);
+}
+
+.btn-up-l{
+  width: 46.67px;
+  height: 46.67px;
+}
+.btn-up-m{
+  width: 36.67px;
+  height: 36.67px;
+}
