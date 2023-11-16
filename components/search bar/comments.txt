@@ -1,0 +1,2 @@
+問題點:
+1. 在focus時加上border，但畫面會變成focus時背景露出一點點白，才包住border
