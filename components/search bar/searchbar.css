@@ -13,7 +13,7 @@
 }
 
 .search-bar:focus{
-  border: 2px solid var(--gray-01);
+  outline: 2px solid var(--gray-01);
 }
 
 .search-bar-l{
