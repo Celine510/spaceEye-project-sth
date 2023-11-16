@@ -33,6 +33,20 @@ header{
   cursor: pointer;
 }
 
+header.active{
+  background:  var(--gray-01);
+}
 
+.header-ul-m{
+  background: var(--gray-01);
+  /* 跟footer相等 */
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
 
-
+.header-ul-m li{
+  padding: 16px;
+  color: var(--white);
+  font-weight: var(--fw-medium-500);
+  cursor: pointer;
+}

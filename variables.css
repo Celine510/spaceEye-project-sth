@@ -1,6 +1,9 @@
 :root{
   /* FONT */
   --ff: 'Noto Sans TC', sans-serif;
+  --fw-regular-400: 400;
+  --fw-medium-500: 500;
+  --fw-bold-700: 700;
 
   /* COLOR */
   --brand-01: #93FF00;

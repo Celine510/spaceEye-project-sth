@@ -9,7 +9,7 @@
 .btn-dark-trans-m {
   border-radius: 48px;
   font-family: var(--ff);
-
+  font-weight: var(--fw-medium-500);
 }
 
 .btn-light-solid-l,

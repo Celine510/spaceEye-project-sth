@@ -1,0 +1,6 @@
+1. 手機板點擊hamburger打開導覽列，'打開導覽列'動作要在<header>的class屬性加上'active'
+2. (有active的話)logo用js改
+3. (有active的話)呈現nav導覽列
+
+
+手機板記得載入script
