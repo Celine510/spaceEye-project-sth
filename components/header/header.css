@@ -1,5 +1,5 @@
 header{
-  background: #888;
+  display: block;
 }
 /* large - 1920 */
 .header-container-l{
@@ -19,6 +19,13 @@ header{
   gap: 48px;
 }
 
+@media screen and (max-width:992px){
+  .header-ul-l{
+    width: 340px;
+    padding: 16px;
+    gap: 2px;
+  }
+}
 
 /* medium - 375 */
 .header-container-m {
@@ -49,4 +56,8 @@ header.active{
   color: var(--white);
   font-weight: var(--fw-medium-500);
   cursor: pointer;
+}
+
+.hide{
+  display: none;
 }
