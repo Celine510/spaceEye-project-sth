@@ -6,7 +6,6 @@ const btnUpL = document.querySelector('.btn-up-l');
 const btnUpM = document.querySelector('.btn-up-m');
 const btnUpSvg = document.querySelectorAll('.btn-up-svg');
 
-console.log(btnMail[0].childNodes[5].children[1]);
 /* 按鈕 - 歡迎免費諮詢 */
 for(let i = 0;i < btnMail.length; i++){
   btnMail[i].addEventListener('mouseover', e => {
@@ -33,33 +32,36 @@ for(let i = 0;i < btnMail.length; i++){
 
 
 /* 按鈕 - 向上箭頭 */
-btnUpL.addEventListener('mouseover',e=>{
-  btnUpL.innerHTML = `
-  <svg width="21" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#93FF00"/>
-  </svg>
-  `
-}); 
-btnUpL.addEventListener('mouseleave', e => {
-  btnUpL.innerHTML = `
-  <svg width="21" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#1E1E1E" />
-  </svg>
-  `
-});
+if (btnUpL){
+  btnUpL.addEventListener('mouseover',e=>{
+    btnUpL.innerHTML = `
+    <svg width="21" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#93FF00"/>
+    </svg>
+    `
+  }); 
+  btnUpL.addEventListener('mouseleave', e => {
+    btnUpL.innerHTML = `
+    <svg width="21" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#1E1E1E" />
+    </svg>
+    `
+  });
+}
 
-
-btnUpM.addEventListener('mouseover',e=>{
-  btnUpM.innerHTML = `
-  <svg width="16.5" height="12" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#93FF00"/>
-  </svg>
-  `
-}); 
-btnUpM.addEventListener('mouseleave', e => {
-  btnUpM.innerHTML = `
-  <svg width="16.5" height="12" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#1E1E1E" />
-  </svg>
-  `
-});
+if (btnUpM){
+  btnUpM.addEventListener('mouseover',e=>{
+    btnUpM.innerHTML = `
+    <svg width="16.5" height="12" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#93FF00"/>
+    </svg>
+    `
+  }); 
+  btnUpM.addEventListener('mouseleave', e => {
+    btnUpM.innerHTML = `
+    <svg width="16.5" height="12" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.175 14.6L11 7.42501L3.825 14.6L0.5 11.3333L11 0.833344L21.5 11.3333L18.175 14.6Z" fill="#1E1E1E" />
+    </svg>
+    `
+  });
+}
